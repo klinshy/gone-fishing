@@ -1,4 +1,5 @@
 window.onload = function() {
+WA.chat.sendChatMessage('Fishing Game started', 'C3-o-mat');
     const gameContainer = document.querySelector("#game-container");
     const clickContainer = document.querySelector("#click-container");
     const fishingLine = document.querySelector("#line");
